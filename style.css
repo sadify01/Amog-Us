@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: "press start 2p";
+    background-color: black;
+}
+
+#div1{
+    color: red;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#header1{
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+#paragraph1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#button1{
+    color: red;
+    background-color: black;
+    border-color: red;
+    border: 5px solid;
+    border-radius: 30px;
+    font-family: "press start 2p";
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    width: 250px;
+    height: 100px;
+    margin-top: 250px;
+    padding: 0px;
+    transition: 100ms;
+
+    position: sticky;
+    bottom: 0px;
+}
+
+#button1:hover{
+    border-width: 7px;
+}
